@@ -26,7 +26,6 @@ module.exports = {
     },
     extends: ['airbnb', 'plugin:prettier/recommended'],
     plugins: ['prettier'],
-    ignorePatterns: ['*.test.js', '*.test.jsx'],
     rules: {
         'prettier/prettier': 'error',
         'no-duplicate-imports': 'error',
