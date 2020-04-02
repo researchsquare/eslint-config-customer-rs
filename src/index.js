@@ -14,16 +14,6 @@ module.exports = {
         System: true,
         Promise: true,
     },
-    settings: {
-        react: {
-            version: 'detect',
-        },
-        'import/resolver': {
-            webpack: {
-                config: './webpack/config.js',
-            },
-        },
-    },
     extends: ['airbnb', 'plugin:prettier/recommended'],
     plugins: ['prettier'],
     rules: {
