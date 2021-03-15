@@ -28,8 +28,8 @@ module.exports = {
                 exports: 'always-multiline',
             },
         ],
-        curly: 'error',
-        eqeqeq: 'error',
+        'curly': 'error',
+        'eqeqeq': 'error',
         'object-curly-spacing': ['error', 'always'],
         'react/jsx-filename-extension': ['error', { extensions: ['.jsx'] }],
         'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
@@ -45,8 +45,10 @@ module.exports = {
         'react/prop-types': 0,
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
+        // Bootstrap 4 prevents us from following this rule
+        'jsx-a11y/label-has-associated-control': 0,
         'jsx-quotes': ['error', 'prefer-double'],
-        semi: 'error',
+        'semi': 'error',
         'react/jsx-one-expression-per-line': 0,
         'react/jsx-curly-newline': 0,
         'no-shadow': 0,
@@ -62,7 +64,7 @@ module.exports = {
         'import/order': [
             'error',
             {
-                groups: [['external', 'builtin'], 'internal', 'parent', 'sibling', 'index'],
+                'groups': [['external', 'builtin'], 'internal', 'parent', 'sibling', 'index'],
                 'newlines-between': 'always',
             },
         ],
